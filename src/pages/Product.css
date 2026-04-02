@@ -1,0 +1,49 @@
+.Products{
+    width: 1110px;
+    height: 951px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    z-index: 1;
+    margin-top: -1000px;
+    margin-left: 220px;
+}
+.Products-card{
+    display: flex;
+    width: 1054px;
+    height: 72px;
+    gap: 80px;
+}
+.box40{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.box{
+    display: flex;
+    width: 1200px;
+    height: 1100px;
+    gap: 800px;
+    align-items: center;
+    justify-content:center;
+    background-color:#f8f9fa;
+    margin-left: 180px;
+}
+.box h1{
+    margin-top: -1000px;
+}
+.box button{
+    margin-top: -1000px;
+}
+.Add_Button{
+    background-color: #1E5EFF;
+    color: white;
+    border: none;
+    width: 163px;
+    height: 40px;
+    border-radius: 5px;
+}

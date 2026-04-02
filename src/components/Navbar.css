@@ -1,0 +1,38 @@
+*{
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	box-sizing: border-box;
+}
+nav{
+	padding: 20px 20px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	gap: 20px;
+}
+.logo{
+	justify-content: start;
+	display: flex;
+	font-size: 15px;
+	gap: 10px;
+	align-items: center;
+}
+.searchbox{
+	margin-right: 40%;
+	align-items: center;
+}
+input{
+	border: none;
+	font-size: 15px;
+	color: #5A607F;
+}
+.avatar{
+	display: flex;
+	align-items: center;
+	gap: 10px;
+}
+p{
+	color: #5A607F;
+	font-size: 14px;
+}

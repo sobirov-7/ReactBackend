@@ -1,0 +1,16 @@
+.container{
+	background-color: #f8f9fa;
+	width: 20%;
+	height: 100vh;
+	/* display: block; */
+	gap: 30px;
+	z-index: 1;
+	border: 1px  solid black;
+}
+a{
+	text-decoration: none;
+	color: #5A607F;
+	align-items: center;
+	padding: 15px;
+	gap: 10px;
+}

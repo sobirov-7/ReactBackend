@@ -1,8 +1,8 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
-import Dashboard from './pages/Dashboard'
 import Navbar from './components/Navbar'
 import Sidebar from './components/Sidebar'
+import Dashboard from './pages/Dashboard'
 import Products from './pages/Products'
 import Categories from './pages/Categories'
 import AddProduct from './pages/AddProduct'
@@ -12,6 +12,7 @@ function App() {
   return (
     <>
     <Navbar/>
+    <div className='BigBox'>
     <Sidebar/>
       <Routes>
         <Route path='/' element={<Dashboard/>}/>
@@ -19,6 +20,7 @@ function App() {
         <Route path='/categories' element={<Categories/>}/>
         <Route path='/addproduct' element={<AddProduct/>}/>
       </Routes>
+      </div>
     </>
   )
 }

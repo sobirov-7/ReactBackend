@@ -1,9 +1,6 @@
-import React from 'react'
-import "./Dashboard.css"
 import img1111 from "../assets/Orders chart.svg"
 import img222 from '../assets/stats.svg'
-import img333 from "../assets/last 7 days.svg"
-import img444 from '../assets/Top Products.svg'
+import "./Dashboard.css"
 
 const Dashboard = () => {
 	return (

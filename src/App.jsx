@@ -7,8 +7,8 @@ import Products from './pages/Products'
 import Categories from './pages/Categories'
 import AddProduct from './pages/AddProduct'
 
-function App() {
 
+function App() {
   return (
     <>
     <Navbar/>
